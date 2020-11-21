@@ -24,8 +24,7 @@ Covar <- c("AgeCat", "Sex", "Year", "Month", "BCI")
 SocCovar <- c("Degree", 
               "GroupSize",
               "LifetimeDensity", "TrappingDensity",
-              "AnnualDensity",
-              "PopN")
+              "AnnualDensity")
 
 ClashList <- 
   list(SocCovar)

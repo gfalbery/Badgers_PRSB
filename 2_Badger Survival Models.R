@@ -18,8 +18,7 @@ EctoLimits <- c(30, 15, 1, 1, 1)
 SocCovar <- c("Degree",
               "GroupSize",
               "LifetimeDensity", "TrappingDensity",
-              "AnnualDensity", 
-              "PopN")
+              "AnnualDensity")
 
 ClashList <- 
   # list(SocCovar[3:4], SocCovar[5:8])
@@ -97,8 +96,7 @@ EctoLimits <- c(30, 15, 1, 1, 1)
 SocCovar <- c("Degree",
               "GroupSize",
               "LifetimeDensity", "TrappingDensity",
-              "AnnualDensity", 
-              "PopN")
+              "AnnualDensity")
 
 ClashList <- 
   # list(SocCovar[3:4], SocCovar[5:8])
@@ -171,8 +169,7 @@ CubSurvCovar <- c("AgeCat", "Sex", "Year", "BCI")[2:4]
 SocCovar <- c("Degree",
               "GroupSize",
               "LifetimeDensity", "TrappingDensity",
-              "AnnualDensity", 
-              "PopN")
+              "AnnualDensity")
 
 ClashList <- 
   # list(SocCovar[3:4], SocCovar[5:8])
@@ -248,8 +245,7 @@ SocCovar <- c("Degree",
               "GroupSize",
               "LifetimeDensity", "TrappingDensity",
               "AnnualDensity", "AnnualDensityt0",
-              "AnnualTrappingDensity", "AnnualTrappingDensityt0",
-              "PopN", "PopNt0")
+              "AnnualTrappingDensity", "AnnualTrappingDensityt0")
 
 ClashList <- 
   # list(SocCovar[3:4], SocCovar[5:8])
