@@ -12,4 +12,5 @@ Badgers %>%
                 Age, AgeCat, X, Y, Degree, Strength, GroupSize,
                 LifetimeDensity, TrappingDensity, AnnualDensity, 
                 Survived, BCI) %>% 
+  mutate_at("Tattoo", ~as.numeric(as.factor(.x))) %>% 
   write.csv("Badgers.csv")
